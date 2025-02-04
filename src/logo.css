@@ -1,0 +1,16 @@
+.logo{
+    width:36px;
+    height:32px;
+    background-color: var(--orange-color);
+    border-radius:5px;
+  }
+  
+  .logo p{
+    color:var(--blue-color);
+    font-size:1.6rem;
+    font-weight:bold;
+    letter-spacing:-2px;
+    line-height:30px;
+    margin-left:3px;
+  }
+  

@@ -1,0 +1,53 @@
+.contactForm{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-flow: column wrap;
+    margin-top:10px;
+  }
+  
+  .contactForm label{
+    font-size:1.125rem;
+    letter-spacing:0.2px;
+    color:var(--text-color);
+    margin:20px 0;
+  }
+  
+  .contactForm input, .contactForm select, .contactForm textArea{
+    width:205px;
+    height:35px;
+    border: none;
+    background-color:#D9D9D9;
+    border-radius:5px;
+    padding-left:15px;
+    font-size:0.9375rem;
+  }
+  
+  .contactForm select{
+   width:220px; 
+   color:var(--text-color);
+  }
+  .contactForm textarea{
+    height:133px;
+    font-family: "lato";
+    padding-top:15px;
+  }
+  
+  .contactForm .btn-submit{
+    width:104px;
+    height:31px;
+    background-color:var(--orange-color);
+    padding:0;
+    font-size:0.9375rem;
+    font-family:"Playfair Display", serif;
+    font-weight:600;
+    margin:40px auto;
+    cursor:pointer;
+  }
+  
+  .contactForm .btn-submit:hover{
+    background-color:var(--text-color);
+    color:var(--background-color);
+    transform:scale(1.05);
+  }
+  
