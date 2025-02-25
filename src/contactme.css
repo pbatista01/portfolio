@@ -1,0 +1,70 @@
+.contactMe-section{
+    padding:35px;
+    display:flex;
+    flex-flow:column wrap;
+    background-color:white;
+  }
+  
+  .hyphen{
+    display:block;
+    width:26px;
+    height:5px;
+    background-color:var(--blue-color);
+  }
+  
+  .contactMe-title{
+    display:flex;
+    flex-flow:row wrap;
+    font-weight:400;
+    font-size:1.25rem;
+    align-items: center;
+  }
+  
+  .contactMe-text h3{
+    font-size:1.5625rem;
+    font-weight:600;
+    margin-top:20px;
+  }
+  
+  .contactMe-text h3>span{
+    color:var(--orange-color);
+    font-weight:400;
+  }
+  
+  .contactMe-text>p{
+    font-size:0.875rem;
+    line-height:30px;
+    margin-top:12px;
+  }
+  
+  .contactMe-methods{
+    display:flex;
+    flex-flow:column wrap;
+  }
+  .phone-number, .email{
+    display:flex;
+    flex-flow: row wrap;
+    margin-top:20px;
+    align-items:center;
+  }
+
+  .phone-number img{
+    margin:5px;
+  }
+
+  .email img{
+    margin:8px;
+  }
+  
+  .phone-number p, .email p{
+    font-size:0.875rem;
+    margin-left:10px;
+    letter-spacing:0.3px;
+  }
+  
+  .box{
+    width:41px;
+    height:41px;
+    background-color:var(--orange-color);
+    border-radius:10px;
+  }

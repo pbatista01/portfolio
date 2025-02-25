@@ -1,0 +1,53 @@
+.about-section{
+    background-color:#ffc107ba;
+    padding:35px;
+    margin-top:50px;
+}
+
+.aboutMe-title{
+    display:flex;
+    flex-flow:row wrap;
+    font-size:1.25rem;
+    font-weight:400;
+    align-items: center;
+}
+
+.aboutMe-subtitle{
+    font-size: 1.47rem;
+    color:var(--blue-color);
+    font-weight:400;
+    margin-top:20px;
+}
+
+.aboutMe-subtitle span{
+    font-weight:700;
+}
+
+.aboutMe-text p{
+    font-family:"Lato";
+    line-height:30px;
+    margin-top:30px;
+    font-size:0.875rem;
+}
+
+.btn-letsWork{
+    width:201px;
+    height:34px;
+    text-align: start;
+    padding-left:18px;
+    font-weight:600;
+    letter-spacing: 0.4px;
+    margin:20px 25px -10px;
+}
+
+.email-icon{
+    position:relative;
+    top:-22px;
+}
+
+.signature{
+    font-style: italic;
+    font-weight:700;
+    margin-left:68px;
+    letter-spacing: 0.3px;
+}

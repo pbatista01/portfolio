@@ -1,0 +1,50 @@
+.menuList{
+    display:none;
+    width:100%;
+    background-color: var(--orange-color);
+    padding: 25px 0;
+    height:100vh;
+    position:fixed;
+    top:0;
+    z-index: 1;
+}
+
+.close-btn{
+    display:block;
+    font-weight:800;
+    width:40px;
+    height:40px;
+    background-color: var(--background-color);
+    text-align: center;
+    line-height: 40px;
+    border-radius:5px;
+    position:absolute;
+    top:20px;
+    right:20px;
+    cursor:pointer;
+}
+
+.close-btn:hover{
+    background-color: var(--blue-color);
+}
+
+.menuList ul{
+    display:flex;
+    flex-flow:column wrap;
+    align-items: center;
+    list-style:none;
+    gap:45px;
+    margin-top:120px;
+    font-weight:800;
+    letter-spacing:0.8px;
+}
+
+.menuList ul li a{
+    cursor:pointer;
+    text-transform: uppercase;
+}
+
+.menuList ul li a:hover{
+    color:var(--background-color);
+    text-decoration: underline;
+}

@@ -1,0 +1,90 @@
+.footer-container {
+    padding:35px;
+    display:flex;
+    flex-flow:column wrap;
+    background-color: var(--background-color);
+  }
+
+  .rectangles2{
+    width:100%;
+  }
+  
+  .letsConnect-title{
+    font-weight:700;
+    font-size:1.25rem;
+    align-items: center;
+  }
+
+  .letsConnect-title span{
+    color:var(--orange-color);
+  }
+
+  .footer-logo{
+    display:flex;
+    align-items: center;
+    margin-top:20px;
+  }
+
+  .footer-logo h1{
+    font-size:0.9375rem;
+    color:var(--orange-color);
+    font-weight:500;
+    margin-left:10px;
+    letter-spacing: 0.5px;
+  }
+
+  .footer-text{
+    font-size:0.95rem;
+    font-family: "lato";
+    line-height:30px;
+    margin-top:20px;
+  }
+  
+  
+  .socials{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    margin-top:30px;
+    text-align: center;
+  }
+
+  .socials img{
+    margin-top:5px;
+  }
+  
+  .footer-nav, .footer-contact{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:space-around;
+    margin-top:30px;
+  }
+  
+  .footer-nav h3, .footer-contact h3{
+    color:var(--orange-color);
+    letter-spacing:0.5px;
+    font-weight:400;
+  }
+  
+  .footer-nav li, .footer-contact li{
+    list-style:none;
+    font-size:1.0625rem;
+    color: var(--text-color);
+    margin-top:10px;
+    font-family: "Lato";
+    font-weight:400;
+  }
+  
+  .copyright-text{
+    width:96.6%;
+    background-color:var(--blue-color);
+    height:20px;
+    padding:5px;
+  }
+  
+  .copyright-text p{
+    font-size:0.625rem;
+    line-height:20px;
+    text-align: center;
+  }
+  

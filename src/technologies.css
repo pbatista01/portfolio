@@ -1,0 +1,22 @@
+.technologies-section{
+    padding:35px;
+}
+
+.technologies-title{
+    display:flex;
+    flex-flow: row wrap;
+    font-size:1.25rem;
+    font-weight:400;
+    align-items: center;
+}
+
+.technologies-subtitle{
+    font-size:1.5625rem;
+    font-weight:400;
+    letter-spacing: 0.2px;
+    margin-top:20px;
+}
+
+.technologies-subtitle span{
+    color:var(--orange-color);
+}

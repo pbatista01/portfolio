@@ -1,0 +1,23 @@
+/* Predet Colors */
+:root{
+  --orange-color: #FFB300;
+  --blue-color: #00ACC1;
+  --text-color: #212121;
+  --background-color:#F5F5F5;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+   font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color:var(--text-color);
+    background-color: var(--background-color);
+}
+
+
