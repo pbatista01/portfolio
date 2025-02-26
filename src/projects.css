@@ -2,6 +2,12 @@
     padding:50px;
 }
 
+.projects-div{
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
 .project-header div{
     display:flex;
     flex-flow:row wrap;
@@ -44,15 +50,15 @@
 }
 
 .btn-viewAll{
-    width:140px;
+    width:130px;
     height:40px;
     font-size:1.1rem;
     background-color:var(--orange-color);
     border-radius:5px;
     letter-spacing:0.2px; 
     text-align: start;
-    padding-left:25px;
-    position:absolute;
+    padding-left:20px;
+    position:relative;
 }
 
 .btn-viewAll:hover{
@@ -65,8 +71,8 @@
 }
 
 .arrow-right{
-    position:relative;
-    top:31px;
-    left:105px;
+    position:absolute;
+    top:13px;
+    left:calc(100% - 30px);
 }
 

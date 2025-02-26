@@ -9,16 +9,17 @@ function Projects(){
                 <div><h2 className="projects-title"><span className="hyphen"></span> My Portfolio</h2></div>
                 <h1 className="projects-subtitle">My <span>Latest</span> Projects</h1>
             </div>
+            <div className="projects-div">
             <div className='projects-card-section'>
                     <ProjectCard />
                     <ProjectCard />
                     <ProjectCard />
                     <ProjectCard />
             </div>
-            <button className="btn-viewAll">View All</button>
-            <svg className="arrow-right" width="11" height="16" viewBox="0 0 11 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <button className="btn-viewAll">View All<svg className="arrow-right" width="11" height="16" viewBox="0 0 11 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path d="M10.9799 7.98338L0.53115 15.7893L0.492336 0.229658L10.9799 7.98338Z"/>
-            </svg>
+            </svg></button>
+            </div>
         </div>
     );
 }
