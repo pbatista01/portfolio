@@ -8,6 +8,7 @@ import Technologies from './Technologies.js'
 import ContactMe from './ContactMe.js'
 import Footer from './Footer.js'
 import MenuList from './MenuList.js'
+import rectangles from './img/rectangles.svg';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <MenuList />
       <Header />
+      <img src={rectangles} className='rectangles'/>
       <Projects />
       <AboutMe />
       <Technologies />

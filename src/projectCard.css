@@ -22,12 +22,12 @@
 }
 
 .project-technologies div{
-    width:66px;
-    height:27px;
+    width:100px;
+    height:35px;
     background-color:var(--orange-color);
     text-align: center;
-    font-size:0.75rem;
-    line-height:27px;
+    font-size:1rem;
+    line-height:33px;
     font-weight:600;
     box-shadow:1px 2px 4px rgb(0,0,0,0.5);
     opacity:0.6;
@@ -38,13 +38,13 @@
 }
 
 .project-text h1{
-    font-size:1.375rem;
+    font-size:1.6rem;
     font-weight:400;
     letter-spacing:0.5px;
 }
 
 .project-text p{
-    font-size:0.875rem;
+    font-size:1.2rem;
     line-height:25px;
     margin-top:10px;
     letter-spacing:0.2px;

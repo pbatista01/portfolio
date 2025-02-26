@@ -1,6 +1,5 @@
 import './header.css';
 import headerOvalos from './img/headerOvalos.svg';
-import rectangles from './img/rectangles.svg';
 
 function Header () {
     return(
@@ -15,6 +14,7 @@ function Header () {
         </div>
         <button className="btn-viewProjects">View My Projects</button>
         <button className="btn-hireMe">Hire Me</button>
+       
       </div>
     );
   }

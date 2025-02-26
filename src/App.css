@@ -20,4 +20,8 @@ body{
     background-color: var(--background-color);
 }
 
+.rectangles{
+  width:100%;
+}
+
 
