@@ -1,5 +1,5 @@
 .contactMe-section{
-    padding:35px;
+    padding:50px;
     display:flex;
     flex-flow:column wrap;
     background-color:white;
@@ -16,12 +16,12 @@
     display:flex;
     flex-flow:row wrap;
     font-weight:400;
-    font-size:1.25rem;
+    font-size:1.5rem;
     align-items: center;
   }
   
   .contactMe-text h3{
-    font-size:1.5625rem;
+    font-size:1.7rem;
     font-weight:600;
     margin-top:20px;
   }
@@ -32,9 +32,10 @@
   }
   
   .contactMe-text>p{
-    font-size:0.875rem;
+    font-size:1.15rem;
     line-height:30px;
     margin-top:12px;
+    letter-spacing:0.2px;
   }
   
   .contactMe-methods{
@@ -57,7 +58,7 @@
   }
   
   .phone-number p, .email p{
-    font-size:0.875rem;
+    font-size:1.15rem;
     margin-left:10px;
     letter-spacing:0.3px;
   }

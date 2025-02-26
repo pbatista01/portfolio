@@ -64,6 +64,7 @@
 .btn-viewAll:hover{
     background-color:var(--text-color);
     color:var(--background-color);
+    transform:scale(1.05);
 }
 
 .btn-viewAll:hover>.arrow-right{

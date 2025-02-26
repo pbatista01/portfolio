@@ -7,45 +7,47 @@
   }
   
   .contactForm label{
-    font-size:1.125rem;
+    font-size:1.15rem;
     letter-spacing:0.2px;
     color:var(--text-color);
     margin:20px 0;
   }
   
   .contactForm input, .contactForm select, .contactForm textArea{
-    width:220px;
+    width:95%;
     height:35px;
     border: none;
     background-color:#D9D9D9;
     border-radius:5px;
     padding-left:15px;
-    font-size:0.9375rem;
+    font-size:1rem;
   }
 
   .react-select__option--is-selected {
-    background-color: var(--orange-color) !important; /* Amarillo */
+    background-color: var(--blue-color) !important; /* Amarillo */
     color: var(--text-color) !important; /* Texto en negro */
   }
 
   .react-select__control{
     background-color: #D9D9D9 !important;
-    width:235px;
+    width:99%;
     border:none;
     border-radius:5px;
     height:35px;
     font-family: "Lato";
     font-weight:500;
-    font-size:0.9375rem;
+    font-size:1rem;
   }
 
+  .react-select__dropdown-indicator{
+    color:var(--blue-color) !important;
+  }
   .react-select__value-container{
     padding:0px 15px !important;
   }
 
   .react-select__input{
     caret-color: transparent;
-    background-color: tomato;
   }
 
   .react-select__input-container{
@@ -55,7 +57,7 @@
 
   .react-select__menu{
     background-color: var(--background-color) !important;
-    width:235px !important;
+    width:100% !important;
   }
 
   .react-select__option {
@@ -78,14 +80,15 @@
   
   .contactForm .btn-submit{
     width:104px;
-    height:31px;
+    height:40px;
     background-color:var(--orange-color);
     padding:0;
-    font-size:0.9375rem;
+    font-size:1.1rem;
     font-family:"Playfair Display", serif;
     font-weight:600;
     margin:30px auto;
     cursor:pointer;
+    letter-spacing:0.4px;
   }
   
   .contactForm .btn-submit:hover{
