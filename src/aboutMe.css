@@ -36,6 +36,12 @@
     letter-spacing:0.2px;
 }
 
+.aboutme-btn-section{
+    display:flex;
+    flex-flow:column wrap;
+    align-items:center;
+}
+
 .btn-letsWork{
     width:225px;
     height:40px;
@@ -43,9 +49,8 @@
     padding-left:15px;
     font-weight:600;
     letter-spacing: 0.4px;
-    position:relative;
     font-size:1.1rem;
-    left:calc(100% - 305px);
+    position:relative;
 }
 
 .email-icon{
@@ -57,6 +62,6 @@
 .signature{
     font-style: italic;
     font-weight:700;
-    margin:15px 125px;
+    margin:15px 0;
     letter-spacing: 0.3px;
 }

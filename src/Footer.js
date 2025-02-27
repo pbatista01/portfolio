@@ -9,7 +9,6 @@ function Footer(){
     return (
     
       <footer className="footer-section">
-         <img className="rectangles2" src={rectangles} />
         <div className="footer-container">
         <h2 className="letsConnect-title">Let's <span> Connect</span></h2>
         <div className="footer-logo">

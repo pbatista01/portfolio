@@ -50,22 +50,17 @@
   }
 
   .phone-number img{
-    margin:5px;
+    margin:20%;
   }
 
   .email img{
-    margin:8px;
+    margin:25%;
   }
   
   .phone-number p, .email p{
-    font-size:1.15rem;
+    font-size:1.1rem;
     margin-left:10px;
     letter-spacing:0.3px;
   }
   
-  .box{
-    width:41px;
-    height:41px;
-    background-color:var(--orange-color);
-    border-radius:10px;
-  }
+  

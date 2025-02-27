@@ -12,8 +12,10 @@ function AboutMe() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna . 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
+            <div className="aboutme-btn-section">
             <button className="btn-letsWork">Let's Work Together<img className="email-icon" src={emailIcon} /></button>
             <p className="signature">Estefanie Peña</p>
+            </div>
         </div>
     );
 }

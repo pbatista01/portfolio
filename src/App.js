@@ -21,6 +21,7 @@ function App() {
       <AboutMe />
       <Technologies />
       <ContactMe />
+      <img className="rectangles2" src={rectangles} />
       <Footer />
       
     </div>
