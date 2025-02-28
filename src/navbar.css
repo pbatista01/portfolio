@@ -46,8 +46,123 @@
   
   .navbar-btn span{
     display:block;
-    width:18px;
-    height:1.8px;
+    width:70%;
+    height:2px;
     background-color:var(--text-color);
+  }
+
+  .navbar-btn.menu-open span:nth-child(2){
+    animation: span2open 1.5s forwards cubic-bezier(.8, .5, .2, 1.4);
+    
+  }
+  
+  .navbar-btn.menu-open span:nth-child(3){
+    animation: span3open .8s forwards cubic-bezier(.8, .5, .2, 1.4);
+    animation-delay:.7s;
+  }
+  
+  .navbar-btn.menu-open span:nth-child(1){
+   animation: span1open .8s forwards cubic-bezier(.8, .5, .2, 1.4);
+    animation-delay:1.1s;
+  }
+  
+  @keyframes span1open{
+    0%{
+        transform:translate(0,0);
+      }
+    60%{
+        transform:rotate(-110deg) translate(-7px, -7px);
+       }
+    100%{
+        transform:rotate(-45deg) translate(-3px, 4px);
+        }
+  }
+  
+  @keyframes span2open{
+    0%{
+        transform:translate(0,0) scale(1);
+      }
+    20%{
+        width:3px;
+        border-radius:100%;
+        transform:translate(5px,0) scale(1);
+       }
+    40%{
+        width:3px;
+        border-radius:100%;
+        transform:translate(13px,0) scale(1);
+       }
+    50%{
+        width:3px;
+        border-radius:100%;
+        transform:translate(13px,6px) scale(1);
+       }
+    80%{
+        width:3px;
+        border-radius:100%;
+        transform:translate(13px,-5px) scale(1);
+       }
+    100%{
+        width:3px;
+        border-radius:100%;
+        transform:translate(13px,-100px) scale(1);
+       }
+  }
+  
+  @keyframes span3open{
+    0%{
+        transform:translate(0,0);
+      }
+    60%{
+        transform:rotate(80deg) translate(-7px, -7px);
+       }
+    100%{
+        transform:rotate(45deg) translate(-6px, -6px);
+        }
+  }
+
+  .navbar-menu.menu-closed{
+    display:none;
+  }
+
+  .navbar-menu{
+    width:100%;
+    height:100vh;
+    background-color:var(--orange-color);
+    position:fixed;
+    z-index:1;
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: space-around;
+    align-items: center;
+    top:0;
+    left:0;
+  }
+
+  .navbar-menu span{
+    font-size:1.7rem;
+    font-weight:bold;
+    position:absolute;
+    top:10px;
+    right:20px;
+  }
+
+  .navbar-menu ul li{
+    list-style: none;
+    padding:20px;
+    text-align: center;
+  }
+
+  .navbar-menu ul li a{
+    color:var(--text-color);
+    font-size:1.7rem;
+    font-weight:500;
+    cursor:pointer;
+  }
+
+  .navbar-menu ul li a:hover{
+    text-decoration: underline;
+    color:var(--background-color);
+    font-size:1.75rem;
   }
   
