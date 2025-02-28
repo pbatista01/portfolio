@@ -59,6 +59,7 @@
     text-align: start;
     padding-left:20px;
     position:relative;
+    color:var(--text-color);
 }
 
 .btn-viewAll:hover{

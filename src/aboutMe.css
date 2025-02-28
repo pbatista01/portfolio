@@ -51,6 +51,7 @@
     letter-spacing: 0.4px;
     font-size:1.1rem;
     position:relative;
+    color:var(--text-color);
 }
 
 .email-icon{

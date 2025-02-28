@@ -89,6 +89,7 @@
     margin:30px auto;
     cursor:pointer;
     letter-spacing:0.4px;
+    color:var(--text-color);
   }
   
   .contactForm .btn-submit:hover{
