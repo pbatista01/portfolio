@@ -1,33 +1,38 @@
-import Logo from "./Logo.js"
+import { useState } from "react";
+import Logo from "./Logo.js";
 import './navbar.css';
 
 function Navbar() {
 
-    const openMenu = () =>{
-      
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    function toggleMenu(){
+      setMenuOpen(!menuOpen);
     }
+
 
     return (
       <div className="navbar">
-        <div className="navbar-logo">
-          <Logo />
-          <h1>Estefanie</h1>
-        </div>
-        <div className="navbar-btn menu-open" onClick={openMenu}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div className="navbar-menu menu-closed">
-          <span>X</span>
-          <ul>
-            <li><a src="#">Home</a></li>
-            <li><a src="#">Projects</a></li>
-            <li><a src="#">About Me</a></li>
-            <li><a src="#">Contact Me</a></li>
-          </ul>
-        </div>
+      <div className="navbar-logo">
+        <Logo />
+        <h1>Estefanie</h1>
       </div>
+
+      <div className={`navbar-btn ${menuOpen ? "menu-open" : "menu-close"}`} onClick={toggleMenu}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div className={`navbar-menu ${menuOpen ? "menu-open" : "menu-closed"}`}>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
     );
   }
 
