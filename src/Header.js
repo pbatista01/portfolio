@@ -3,7 +3,7 @@ import headerOvalos from './img/headerOvalos.svg';
 
 function Header () {
     return(
-      <div className="header">
+      <div className="header" id="home">
         <img className="headerOvalos" src={headerOvalos} />
         <div className="header-text">
             <h2>Hello There!</h2>

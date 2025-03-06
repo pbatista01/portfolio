@@ -4,7 +4,7 @@ import emailIcon from './img/emailIcon.svg';
 
 function AboutMe() {
     return(
-        <div className="about-section">
+        <div className="about-section" id="aboutme">
             <img className="elipseAbout" src={elipseAbout} />
             <div className="aboutMe-text">
             <div><h2 className="aboutMe-title"><span className="hyphen"></span> About Me</h2></div>

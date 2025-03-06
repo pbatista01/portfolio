@@ -1,6 +1,7 @@
 import './contactForm.css'
 import React from 'react'
 import Select from 'react-select'
+import { useState } from 'react'
 
 function ContactForm () {
 
@@ -21,8 +22,23 @@ function ContactForm () {
       {label: "Other", value:"Other"}
     ]
 
+      const [buttonState, setButtonState] = useState("");
+    
+      const handleClick = (e) => {
+        e.preventDefault();
+        setButtonState("onclic");
+    
+        setTimeout(() => {
+          setButtonState("validate");
+    
+          setTimeout(() => {
+            setButtonState("");
+          }, 1150);
+        }, 2150);
+      };
+
     return (
-      <form action='#' className="contactForm">
+      <form action='#' className="contactForm" target="_self">
         <label for="name">Your Name</label>
         <input type="text" id="name" placeholder="Ex. John Doe" />
         <label for="email">Email</label>
@@ -38,7 +54,7 @@ function ContactForm () {
         <label for="message">Your message </label>
         <textarea name="message" rows="5" cols="30" placeholder="Your message...">
         </textarea>
-        <input className="btn-submit" type="submit" value="Submit" />
+        <button className={`btn-submit ${buttonState} `} onClick={handleClick}></button>
       </form>
     
     );

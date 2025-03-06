@@ -4,7 +4,7 @@ import arrowRight from './img/arrowRight.svg';
 
 function Projects(){
     return(
-        <div className="projects">
+        <div className="projects" id="projects">
             <div className="project-header">
                 <div><h2 className="projects-title"><span className="hyphen"></span> My Portfolio</h2></div>
                 <h1 className="projects-subtitle">My <span>Latest</span> Projects</h1>

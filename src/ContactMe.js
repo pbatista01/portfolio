@@ -6,7 +6,7 @@ import phoneIcon from './img/phoneIcon.svg';
 
 function ContactMe() {
     return (
-      <div className="contactMe-section">
+      <div className="contactMe-section" id="contactme">
         <div className="contactMe-text">
         <div><h2 className="contactMe-title"><span className="hyphen"></span> Contact Me</h2></div>
         <h3>Let's Talk for <span>Your Next Projects</span></h3>
