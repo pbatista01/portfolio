@@ -1,8 +1,20 @@
 import ProjectCard from './ProjectCard.js';
 import './projects.css';
 import arrowRight from './img/arrowRight.svg';
+import { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 
 function Projects(){
+
+    useEffect(() =>{
+        ScrollReveal().reveal(".projects-title", {origin: "top", distance:"100px", duration: 1000, delay:100, reset:true});
+        ScrollReveal().reveal(".projects-subtitle", {origin: "top", distance:"100px", duration: 1000, delay:200, reset:true});
+        ScrollReveal().reveal(".background-image", {origin: "top", distance:"100px", duration: 1000, delay:400, reset:true});
+        ScrollReveal().reveal(".project-technologies", {origin: "top", distance:"100px", duration: 1000, delay:600, reset:true});
+        ScrollReveal().reveal(".project-text", {origin: "top", distance:"100px", duration: 1000, delay:800, reset:true});
+        ScrollReveal().reveal(".btn-viewAll", {origin: "top", distance:"100px", duration: 1000, delay:1000, reset:true});
+      }, []);
+
     return(
         <div className="projects" id="projects">
             <div className="project-header">
