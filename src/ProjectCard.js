@@ -3,7 +3,7 @@ import './projectCard.css';
 
 function ProjectCard(){
     return(
-        <div className="projectCard">
+        <div className="project-card">
             <div className="background-image">
                 <img src={appImage}/>
             </div>

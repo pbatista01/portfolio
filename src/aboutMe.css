@@ -61,9 +61,15 @@
 
 .email-icon{
     position:absolute;
-    top:8px;
+    top:15px;
     left:calc(100% - 35px);
+    font-family: fontawesome;
+    font-size:1.3rem;
 }
+
+.email-icon:before{
+    content: "\f0e0";
+  }
 
 .signature{
     font-style: italic;

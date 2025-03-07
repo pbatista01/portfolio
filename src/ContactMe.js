@@ -33,11 +33,11 @@ function ContactMe() {
         <p className="contactMe-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
         <div className="contactMe-methods">
           <div className="phone-number">
-            <div className="box"><img src={phoneIcon}/></div>
+            <div className="box phone-icon"></div>
             <p>+57 123 456 7890</p>
           </div>
           <div className="email">
-            <div className="box"><img src={emailIcon}/></div>
+            <div className="box contact-email-icon"></div>
             <p>email@gmail.com</p>
           </div>
         </div>

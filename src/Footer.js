@@ -11,10 +11,10 @@ function Footer(){
 
   useEffect(() =>{
 
-    const h3footer = document.querySelectorAll(".footer-nav h3");
+    const h3footer = document.querySelectorAll(".footer-nav");
   const aFooterNav = document.querySelectorAll(".footer-nav a");
-  const h3contact = document.querySelectorAll(".footer-contact h3");
-  const contactLi = document.querySelectorAll(".footer-contact li");
+  const h3contact = document.querySelectorAll(".footer-contact");
+  const contactLi = document.querySelectorAll(".footer-section li");
 
     ScrollReveal().reveal(".letsConnect-title", {origin: "top", distance:"50px", duration: 1000, delay:100, reset:true});
     ScrollReveal().reveal(".footer-logo", {origin: "top", distance:"50px", duration: 1000, delay:200, reset:true});
@@ -25,9 +25,7 @@ function Footer(){
     ScrollReveal().reveal(h3footer, {origin: "top", distance:"50px", duration: 1000, delay:1000, reset:true});
     ScrollReveal().reveal(aFooterNav, {origin: "top", distance:"50px", duration: 1000, delay:1300, reset:true});
     ScrollReveal().reveal(h3contact, {origin: "top", distance:"50px", duration: 1000, delay:1300, reset:true});
-    ScrollReveal().reveal(contactLi, {origin: "top", distance:"50px", duration: 1000, delay:1500, reset:true});
-    ScrollReveal().reveal(".copyright-text", {origin: "bottom", distance:"50px", duration: 1000, delay:1700, reset:true});
-
+    ScrollReveal().reveal(contactLi, {origin: "top", distance:"50px", duration: 1000, delay:20, reset:true});
   }, []);
 
 

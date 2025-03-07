@@ -62,5 +62,13 @@
     margin-left:10px;
     letter-spacing:0.3px;
   }
+
+  .phone-icon:before{
+    content: "\f2a0";
+  }
+
+  .contact-email-icon:before{
+    content: "\f0e0";
+  }
   
   

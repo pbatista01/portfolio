@@ -7,12 +7,12 @@ import ScrollReveal from 'scrollreveal';
 function AboutMe() {
 
     useEffect(() =>{
-        ScrollReveal().reveal(".elipseAbout", {origin: "top", distance:"100px", duration: 1000, delay:100, reset:true});
-        ScrollReveal().reveal(".aboutMe-title", {origin: "top", distance:"100px", duration: 1000, delay:200, reset:true});
-        ScrollReveal().reveal(".aboutMe-subtitle", {origin: "top", distance:"100px", duration: 1000, delay:400, reset:true});
-        ScrollReveal().reveal(".aboutMe-paragraph", {origin: "top", distance:"100px", duration: 1000, delay:600, reset:true});
-        ScrollReveal().reveal(".btn-letsWork", {origin: "top", distance:"100px", duration: 1000, delay:800, reset:true});
-        ScrollReveal().reveal(".signature", {origin: "top", distance:"100px", duration: 1000, delay:1000, reset:true});
+        ScrollReveal().reveal(".elipseAbout", {origin: "top", distance:"50px", duration: 3000, delay:100, reset:true});
+        ScrollReveal().reveal(".aboutMe-title", {origin: "top", distance:"50px", duration: 2000, delay:200, reset:true});
+        ScrollReveal().reveal(".aboutMe-subtitle", {origin: "top", distance:"50px", duration: 2000, delay:400, reset:true});
+        ScrollReveal().reveal(".aboutMe-paragraph", {origin: "top", distance:"50px", duration: 2000, delay:600, reset:true});
+        ScrollReveal().reveal(".btn-letsWork", {origin: "top", distance:"50px", duration: 2000, delay:800, reset:true});
+        ScrollReveal().reveal(".signature", {origin: "top", distance:"50px", duration: 2000, delay:1000, reset:true});
       }, []);
 
     return(
@@ -25,7 +25,7 @@ function AboutMe() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <div className="aboutme-btn-section">
-            <button className="btn-letsWork">Let's Work Together<img className="email-icon" src={emailIcon} /></button>
+            <button className="btn-letsWork">Let's Work Together<span className="email-icon"></span></button>
             <p className="signature">Estefanie Peña</p>
             </div>
         </div>
