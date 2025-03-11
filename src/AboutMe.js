@@ -25,7 +25,7 @@ function AboutMe() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <div className="aboutme-btn-section">
-            <button className="btn-letsWork">Let's Work Together<span className="email-icon"></span></button>
+            <button className="btn-letsWork"><a href="#contactme">Let's Work Together<span className="email-icon"></span></a></button>
             <p className="signature">Estefanie Peña</p>
             </div>
         </div>

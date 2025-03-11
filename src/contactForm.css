@@ -53,14 +53,11 @@
   .react-select__input-container{
     margin:0 !important;
     padding-top:0 !important;
-    position:relative;
-    z-index:2;
   }
 
   .react-select__menu{
     background-color: var(--background-color) !important;
-    width:100% !important;
-  
+    width:100% !important;  
   }
 
   .react-select__option {

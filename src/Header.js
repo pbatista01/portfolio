@@ -25,8 +25,8 @@ function Header () {
             <h2 className="header-text-subtitle">Based in Colombia.</h2>
             <p className="header-text-information">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
         </div>
-        <button className="btn-viewProjects">View My Projects</button>
-        <button className="btn-hireMe">Hire Me</button>
+        <button className="btn-viewProjects"><a href='#projects'>View My Projects</a></button>
+        <button className="btn-hireMe"><a href ="#contactme">Hire Me</a></button>
        
       </div>
     );

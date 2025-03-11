@@ -50,6 +50,8 @@ function ContactForm () {
           className="custom-select"
           classNamePrefix="react-select" 
           options={countries} 
+          menuPortalTarget={document.body} 
+          styles={{ menuPortal: base => ({ ...base, zIndex: 1000 }) }}
         />
         <label for="message">Your message </label>
         <textarea name="message" rows="5" cols="30" placeholder="Your message...">
