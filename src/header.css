@@ -7,14 +7,17 @@
     align-items:flex-start;
   }
 
-.headerOvalos{
+  .headerOvalos{
+    margin:0 auto;
+  }
+
+.headerOvalos-img{
     width:100%;
     max-width:350px;
     display:block;
-    margin:0 auto;
 }
   
-  .header-text{
+  .header-text-div{
     display:flex;
     flex-flow:column wrap;
     margin:40px auto;
@@ -87,6 +90,33 @@
     background-color: var(--text-color);
     color:var(--orange-color);
     transform:scale(1.05);  
+  }
+
+  @media(min-width:1025px){
+    .header{
+      display:flex;
+      flex-flow:row wrap;
+      padding:70px;
+    }
+
+    .header-text-div{
+      display:flex;
+      flex-flow:row wrap;
+      flex-basis:40%;
+    }
+    .headerOvalos{
+      flex-basis:40%;
+      order:2;
+      margin-top:80px;
+    }
+
+    .btn-viewProjects, .btn-hireMe{
+      margin-top:40px;
+    }
+
+    .btn-hireMe{
+      margin-left:20px;
+    }
   }
 
 

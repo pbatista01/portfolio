@@ -17,7 +17,10 @@ function AboutMe() {
 
     return(
         <div className="about-section" id="aboutme">
-            <img className="elipseAbout" src={elipseAbout} />
+            <div className="elipseAbout">
+            <img className="elipseAbout-img" src={elipseAbout} />
+            </div>
+            <div className="aboutMe-text-div">
             <div className="aboutMe-text">
             <div><h2 className="aboutMe-title"><span className="hyphen"></span> About Me</h2></div>
             <h1 className="aboutMe-subtitle">Who is <span>Estefanie Peña</span>?</h1>
@@ -27,6 +30,7 @@ function AboutMe() {
             <div className="aboutme-btn-section">
             <button className="btn-letsWork"><a href="#contactme">Let's Work Together<span className="email-icon"></span></a></button>
             <p className="signature">Estefanie Peña</p>
+            </div>
             </div>
         </div>
     );

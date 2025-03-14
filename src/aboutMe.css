@@ -4,7 +4,7 @@
     margin-top:50px;
 }
 
-.elipseAbout{
+.elipseAbout-img{
     width:100%;
     margin:0 auto;
 }
@@ -76,4 +76,40 @@
     font-weight:700;
     margin:15px 0;
     letter-spacing: 0.3px;
+}
+
+@media (min-width:1025px){
+    .about-section{
+        display:flex;
+        flex-flow:row wrap;
+        align-items: center;
+        justify-content:center;
+        padding:50px;
+        margin:0 auto;
+    }
+
+    .elipseAbout{
+        flex-basis:40%;
+        order:1;
+    }
+
+    .elipseAbout-img{
+        width:80%;
+    }
+
+    .aboutMe-text-div{
+        flex-basis:40%;
+        order:2;
+    }
+
+    .aboutme-btn-section{
+        width:90%;
+        flex-flow:row wrap;
+        justify-content: space-between;
+        margin-top:10px;
+    }
+
+    .signature{
+        margin-top:30px;
+    }
 }

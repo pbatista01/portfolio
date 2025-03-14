@@ -16,12 +16,10 @@ function App() {
       <Navbar />
       <MenuList />
       <Header />
-      <img src={rectangles} className='rectangles'/>
       <Projects />
       <AboutMe />
       <Technologies />
       <ContactMe />
-      <img className="rectangles2" src={rectangles} />
       <Footer />
       
     </div>

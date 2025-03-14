@@ -50,3 +50,20 @@
     letter-spacing:0.2px;
     font-family: "Lato";
 }
+
+@media (min-width:1025px) {
+    .background-image{
+        width:80%;
+        margin:0 auto;
+    }
+    
+    .project-technologies{
+        width:80%;
+        margin:0 auto;
+    }
+
+    .project-text{
+        width:80%;
+        margin:0 auto;
+    }
+}
