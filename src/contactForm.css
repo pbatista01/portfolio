@@ -5,6 +5,16 @@
     flex-flow: column wrap;
     margin-top:10px;
   }
+
+  .form-personalInfo{
+    display:flex;
+    flex-flow: column wrap;
+  }
+
+  .form-message{
+    display:flex;
+    flex-flow: column wrap;
+  }
   
   .contactForm label{
     font-size:1.15rem;
@@ -141,6 +151,36 @@
       transform: rotate(360deg);
     }
   }
+
+  @media (min-width:1025px){
+    
+
+      .form-personalInfo{
+        flex-flow:row wrap;
+        gap:25px;
+      }
+
+      .form-personalInfo div{
+        display:flex;
+        flex-flow:column wrap;
+        justify-content: space-between;
+        align-items: start;
+      }
+
+      .react-select__control{
+        width:90%;
+      }
+
+      .contactForm textArea{
+        width:84%;
+      }
+
+      .contactForm .btn-submit{
+        margin:30px 0;
+      }
+
+
+}
   
 
   

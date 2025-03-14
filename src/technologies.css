@@ -67,6 +67,7 @@
 @media (min-width:1025px){
     .technologies-section{
         padding:70px 120px;
+        overflow: hidden;
     }
 
     .technologies-title{
@@ -96,15 +97,17 @@
         left:calc(100% - 60px);
     }
 
+
     .techBox{
         grid-template-columns: repeat(8,auto);
-        grid-template-rows: 1fr;
+        grid-template-rows: 200px;
         gap:50px;
-        overflow: scroll;
+        overflow-x: scroll;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity;
         width:80%;
-        margin:40px auto;
+        margin:20px auto;
         transition: transform 0.5s ease-in-out;
-
     }
     
     .techBox-icon{
@@ -115,4 +118,5 @@
     .techBox-icon img{
         width:60%;
     }
+
 }

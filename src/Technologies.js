@@ -7,19 +7,11 @@ import arrowRight from './img/arrowRight.svg';
 function Technologies(){
 
     const [index, setIndex] = useState(0);
-    const visibleItems = 6;
+    const visibleItems = 10;
+    
 
-    const nextSlide = () => {
-        setIndex((prevIndex) =>
-          prevIndex + visibleItems < technologies.length ? prevIndex + visibleItems : 0
-        );
-      };
+    
 
-      const prevSlide = () => {
-        setIndex((prevIndex) =>
-          prevIndex - visibleItems >= 0 ? prevIndex - visibleItems : technologies.length - visibleItems
-        );
-      };
     const technologies = [
         { name: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
         { name: "CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
@@ -32,11 +24,21 @@ function Technologies(){
           
     ]
 
+    const totalItems = technologies.length;
+
+    const nextSlide = () => {
+        setIndex((prevIndex) => (prevIndex + 1) % totalItems);
+      };
+    
+      const prevSlide = () => {
+        setIndex((prevIndex) => (prevIndex - 1 + totalItems) % totalItems);
+      };
+
     useEffect(() => {
         ScrollReveal().reveal(".technologies-title", { origin: "top", distance: "50px", duration: 2000, delay: 200, reset: true });
         ScrollReveal().reveal(".technologies-subtitle", { origin: "top", distance: "50px", duration: 2000, delay: 300, reset: true });
-        /*ScrollReveal().reveal(".box1", { origin: "left", distance: "50px", duration: 2000, delay: 400, reset: true });
-        ScrollReveal().reveal(".box2", { origin: "right", distance: "50px", duration: 2000, delay: 400, reset: true });
+        ScrollReveal().reveal(".techBox", { origin: "top", distance: "100px", duration: 2000, delay: 400, reset: true });
+        /*ScrollReveal().reveal(".box2", { origin: "right", distance: "50px", duration: 2000, delay: 400, reset: true });
         ScrollReveal().reveal(".box3", { origin: "left", distance: "50px", duration: 2000, delay: 600, reset: true  });
         ScrollReveal().reveal(".box4", { origin: "right", distance: "50px", duration: 2000, delay: 600, reset: true });
         ScrollReveal().reveal(".box5", { origin: "left", distance: "50px", duration: 2000, delay: 800, reset: true });
@@ -53,11 +55,8 @@ function Technologies(){
             <div><h2 className="technologies-title"><span className="hyphen"></span> Technologies</h2></div>
             <h1 className="technologies-subtitle"><span>The tools behind</span> my developments</h1>
             </div>
-            
-            <img className="arrowLeft" alt="arrow" onClick={prevSlide} src={arrowRight} />
-            <div className="techBox"
-            
-            style={{ transform: `translateX(${-index * (160 / visibleItems)}%)` }}>
+        
+            <div className="techBox">
                 {technologies.map((tech,i)=>(
                     <div key={i} className="box1">
                 <div className="techBox-icon">
@@ -70,7 +69,6 @@ function Technologies(){
                 ))}
             
             </div>
-            <img className="arrowRight" alt="arrow" onClick={nextSlide} src={arrowRight} />
         </div>
 
         

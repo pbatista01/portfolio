@@ -39,12 +39,20 @@ function ContactForm () {
 
     return (
       <form action='#' className="contactForm" target="_self">
+        <div className="form-personalInfo">
+          <div>
         <label for="name">Your Name</label>
         <input type="text" id="name" placeholder="Ex. John Doe" />
+        </div>
+        <div>
         <label for="email">Email</label>
         <input type="text" id="email" placeholder="email@gmail.com" />
+        </div>
+        <div>
         <label for="ph-number">Phone Number</label>
         <input type="text" id="ph-number" placeholder="Enter Phone Number" />
+        </div>
+        <div>
         <label for="country">Country</label>
         <Select 
           className="custom-select"
@@ -53,10 +61,14 @@ function ContactForm () {
           menuPortalTarget={document.body} 
           styles={{ menuPortal: base => ({ ...base, zIndex: 1000 }) }}
         />
+        </div>
+        </div>
+        <div className="form-message">
         <label for="message">Your message </label>
         <textarea name="message" rows="5" cols="30" placeholder="Your message...">
         </textarea>
         <button className={`btn-submit ${buttonState} `} onClick={handleClick}></button>
+        </div>
       </form>
     
     );

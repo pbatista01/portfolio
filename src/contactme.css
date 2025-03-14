@@ -70,5 +70,25 @@
   .contact-email-icon:before{
     content: "\f0e0";
   }
+
+  @media (min-width:1025px){
+    .contactMe-section{
+      padding:70px 120px;
+      display:flex;
+      flex-flow:row wrap;
+      justify-content: space-between;
+    }
+
+    .contactMe-text{
+      flex-basis:40%;
+      margin-top:35px;
+    }
+
+    .contactMe-form{
+      flex-basis:50%;
+    }
+
+
+  }
   
   
