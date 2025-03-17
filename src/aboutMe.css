@@ -56,7 +56,11 @@
 
 .btn-letsWork:hover{
     background-color:var(--text-color);
+}
+
+.btn-letsWork:hover a{
     color:var(--background-color);
+
 }
 
 .email-icon{

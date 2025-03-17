@@ -40,7 +40,7 @@ function ContactForm () {
     return (
       <form action='#' className="contactForm" target="_self">
         <div className="form-personalInfo">
-          <div>
+        <div>
         <label for="name">Your Name</label>
         <input type="text" id="name" placeholder="Ex. John Doe" />
         </div>

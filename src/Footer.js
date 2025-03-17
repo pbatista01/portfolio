@@ -33,6 +33,7 @@ function Footer(){
     
       <footer className="footer-section">
         <div className="footer-container">
+        <div className="footer-text-section">
         <h2 className="letsConnect-title">Let's <span> Connect</span></h2>
         <div className="footer-logo">
           <Logo />
@@ -46,6 +47,8 @@ function Footer(){
             <a href="#" className="box linkedin"><span>LinkedIn</span></a>
           </div>
         </div>
+        </div>
+        <div className="footer-nav-section">
         <div className="footer-nav">
           <h3>Navigation</h3>
           <ul>
@@ -61,6 +64,7 @@ function Footer(){
             <li>+57 123 456 7890</li>
             <li>email@gmail.com</li>
           </ul>
+        </div>
         </div>
         </div>
       <div className="copyright-text">

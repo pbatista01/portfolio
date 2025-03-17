@@ -3,13 +3,15 @@
     height:auto;
     display:flex;
     flex-flow: column wrap;
-    margin-top:10px;
   }
 
   .form-personalInfo{
     display:flex;
     flex-flow: column wrap;
+    margin-top:40px;
+    gap:20px;
   }
+  
 
   .form-message{
     display:flex;
@@ -17,13 +19,14 @@
   }
   
   .contactForm label{
+    padding: 5px;
     font-size:1.15rem;
     letter-spacing:0.2px;
     color:var(--text-color);
-    margin:20px 0;
+    margin-top:20px;
   }
   
-  .contactForm input, .contactForm select, .contactForm textArea{
+  .contactForm input, .contactForm textArea{
     width:95%;
     height:35px;
     border: none;
@@ -156,7 +159,9 @@
     
 
       .form-personalInfo{
-        flex-flow:row wrap;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         gap:25px;
       }
 
@@ -168,11 +173,26 @@
       }
 
       .react-select__control{
-        width:90%;
+        width:25vw;
       }
 
+
+      .react-select__dropdown-indicator{
+        color:var(--orange-color) !important;
+        position:relative;
+        top:-15px;
+        left:calc(100% - 65px);
+      }
+
+      .react-select__value-container{
+        padding:10px !important;
+      }
+
+      .contactForm input{
+        height:38px;
+      }
       .contactForm textArea{
-        width:84%;
+        width:98%;
       }
 
       .contactForm .btn-submit{

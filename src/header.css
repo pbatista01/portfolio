@@ -77,19 +77,25 @@
 
   .btn-viewProjects:hover{
     background-color: var(--text-color);
-    color:var(--background-color);
     transform:scale(1.05);
   }
 
+  .btn-viewProjects:hover a{
+    color:var(--background-color);
+
+  }
+
   .btn-hireMe{
- 
-    background-color: var(--blue-color);
+   background-color: var(--blue-color);
   }
 
   .btn-hireMe:hover{
     background-color: var(--text-color);
-    color:var(--orange-color);
     transform:scale(1.05);  
+  }
+
+  .btn-hireMe:hover a{
+    color:var(--orange-color);
   }
 
   @media(min-width:1025px){

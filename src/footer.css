@@ -158,4 +158,31 @@
     line-height:30px;
     text-align: center;
   }
+
+  @media (min-width: 1025px){
+    .footer-container{
+      padding:70px 120px;
+      flex-flow:row wrap;
+      gap:40px;
+    }
+
+    .footer-text-section{
+      flex-basis:35%;
+    }
+
+    .footer-nav-section{
+      display:flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-basis:50%;
+    }
+
+    .socials{
+      justify-content: flex-start;
+      gap:25px;
+    }
+
+    
+  }
   
