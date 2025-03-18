@@ -55,7 +55,7 @@
 }
 
 .btn-letsWork:hover{
-    background-color:var(--text-color);
+    background-color:var(--blue-color);
 }
 
 .btn-letsWork:hover a{
@@ -92,13 +92,25 @@
         margin:0 auto;
     }
 
+    .aboutMe-title{
+        font-size:1.3rem;
+    }
+
+    .aboutMe-subtitle{
+        font-size: 1.4rem;
+    }
+
+    .aboutMe-text p{
+        font-size:1rem;
+    }
+
     .elipseAbout{
         flex-basis:40%;
         order:1;
     }
 
     .elipseAbout-img{
-        width:80%;
+        width:70%;
     }
 
     .aboutMe-text-div{
@@ -109,11 +121,24 @@
     .aboutme-btn-section{
         width:90%;
         flex-flow:row wrap;
-        justify-content: space-between;
         margin-top:10px;
     }
 
+    .btn-letsWork{
+        width:205px;
+        height:35px;
+        font-size:1rem;
+    }
+
+    .email-icon{
+        position:absolute;
+        top:11px;
+        left:calc(100% - 30px);
+        font-size:1.1rem;
+    }
+
     .signature{
-        margin-top:30px;
+        margin:30px 0 10px 20px;
+
     }
 }

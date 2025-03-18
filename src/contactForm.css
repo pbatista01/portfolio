@@ -107,7 +107,7 @@
   }
   
   .contactForm .btn-submit:hover{
-    background-color:var(--text-color);
+    background-color:var(--blue-color);
     color:var(--background-color);
     transform:scale(1.05);
   }
@@ -120,10 +120,10 @@
     content: "Submit";
   }
 
-  .btn-submit.onclick{
-      width: 35px;
+  .contactForm .btn-submit.onclick{
+      width: 40px;
       border-color: #fde092;
-      background: var(--orange-color);
+      background: var(--blue-color);
       border-width: 3px;
       font-size: 0;
       border-left-color: var(--text-color);
@@ -133,7 +133,7 @@
   .validate {
     font-size: 0.7rem;
     font-weight:bold;
-    color: var(--font-color);
+    color: var(--text-color);
     background: #fdc220;
   }
   
@@ -161,8 +161,8 @@
       .form-personalInfo{
         display:grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        gap:25px;
+        grid-template-rows: repeat(2, auto);
+        gap:10px;
       }
 
       .form-personalInfo div{
@@ -173,7 +173,12 @@
       }
 
       .react-select__control{
-        width:25vw;
+        width:22.5vw;
+        font-size:0.9rem;
+      }
+
+      .react-select__menu{
+        font-size:0.9rem; 
       }
 
 
@@ -181,22 +186,33 @@
         color:var(--orange-color) !important;
         position:relative;
         top:-15px;
-        left:calc(100% - 65px);
+        left:calc(100% - 40px);
       }
 
       .react-select__value-container{
-        padding:10px !important;
+        line-height:35px;
       }
 
+      
       .contactForm input{
+        width:90%;
         height:38px;
+        font-size:0.9rem;
       }
       .contactForm textArea{
-        width:98%;
+        width:95%;
+        font-size:0.9rem;
+      }
+
+      .contactForm label{
+        font-size:1rem;
       }
 
       .contactForm .btn-submit{
         margin:30px 0;
+        width:94px;
+        height:35px;
+        font-size:1rem;
       }
 
 

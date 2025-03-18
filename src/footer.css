@@ -144,7 +144,12 @@
     margin-top:10px;
     font-family: "Lato";
     font-weight:300;
-    cursor:pointer;
+  }
+
+  .footer-nav li:hover a{
+    color:var(--blue-color);
+    text-decoration: underline;  
+cursor:pointer;
   }
   
   .copyright-text{
@@ -178,9 +183,37 @@
       flex-basis:50%;
     }
 
+    .letsConnect-title{
+      font-size:1.4rem;
+    }
+
+    .footer-logo h1{
+      font-size:1.3rem;
+    }
+
+    .footer-text{
+      font-size:1rem;
+    }
+
     .socials{
       justify-content: flex-start;
       gap:25px;
+    }
+
+    .box{
+      width:40px;
+      height:40px;
+      font-size:1.4rem;
+      line-height:40px;
+    }
+
+    .footer-nav h3, .footer-contact h3{
+      font-size:1.1rem;
+    }
+
+    .footer-nav li, .footer-contact li{
+      list-style:none;
+      font-size:1rem;
     }
 
     

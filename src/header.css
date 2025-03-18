@@ -76,12 +76,12 @@
   }
 
   .btn-viewProjects:hover{
-    background-color: var(--text-color);
+    background-color: var(--background-color);
     transform:scale(1.05);
   }
 
   .btn-viewProjects:hover a{
-    color:var(--background-color);
+    color:var(--blue-color);
 
   }
 
@@ -90,12 +90,12 @@
   }
 
   .btn-hireMe:hover{
-    background-color: var(--text-color);
+    background-color: var(--background-color);
     transform:scale(1.05);  
   }
 
   .btn-hireMe:hover a{
-    color:var(--orange-color);
+    color:var(--blue-color);
   }
 
   @media(min-width:1025px){
@@ -110,10 +110,28 @@
       flex-flow:row wrap;
       flex-basis:40%;
     }
+
+    .header-text h2{
+      font-size:1.2rem;
+    }
+
+    .header-text h1{
+      font-size:1.5rem;
+    }
+    .header-text p{
+      font-size:1rem;
+    }
+
     .headerOvalos{
       flex-basis:40%;
       order:2;
-      margin-top:80px;
+      margin-top:20px;
+    }
+
+    button{
+      width:150px;
+      height:38px;
+      font-size:1rem;
     }
 
     .btn-viewProjects, .btn-hireMe{

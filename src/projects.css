@@ -63,7 +63,7 @@
 }
 
 .btn-viewAll:hover{
-    background-color:var(--text-color);
+    background-color:var(--blue-color);
     color:var(--background-color);
     transform:scale(1.05);
 }
@@ -82,14 +82,31 @@
     .projects{
         padding:0 120px 60px;
     }
+
+    .projects-title{
+        font-size:1.3rem;
+    }
+
+    .projects-subtitle{
+        font-size:1.4rem;
+    }
     .projects-card-section{
         padding:0 20px;
-        margin-top:40px;
-        grid-template-columns: repeat(2, auto);
+        margin-top:20px;
+        grid-template-columns: repeat(3, auto);
         gap:50px;
     }
 
     .btn-viewAll{
         margin-top:-50px;
+        font-size:1rem;
+        width: 115px;
+        height:35px;
+    }
+
+    .arrow-right{
+        position:absolute;
+        top:10px;
+        left:calc(100% - 25px);
     }
 }

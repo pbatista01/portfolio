@@ -289,10 +289,10 @@
     }
 
     .btn-contactme:hover{
-      background-color:var(--text-color);
+      background-color:var(--background-color);
     }
 
     .btn-contactme:hover a{
-      color:var(--background-color);
+      color:var(--blue-color);
     }
   }

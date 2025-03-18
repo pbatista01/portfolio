@@ -75,7 +75,7 @@
     }
 
     .technologies-subtitle{
-        font-size:1.5rem;
+        font-size:1.4rem;
     }
 
     .arrowRight, .arrowLeft{
@@ -111,12 +111,16 @@
     }
     
     .techBox-icon{
-        width:100px;
-        height:100px;
+        width:90px;
+        height:90px;
     }
 
     .techBox-icon img{
         width:60%;
+    }
+
+    .techBox-text{
+        font-size:1rem;
     }
 
 }

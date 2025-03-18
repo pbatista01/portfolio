@@ -26,7 +26,7 @@ function ContactForm () {
     
       const handleClick = (e) => {
         e.preventDefault();
-        setButtonState("onclic");
+        setButtonState("onclick");
     
         setTimeout(() => {
           setButtonState("validate");

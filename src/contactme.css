@@ -84,9 +84,28 @@
       margin-top:35px;
     }
 
+    .contactMe-title{
+      font-size:1.3rem;
+    }
+    
+    .contactMe-text h3{
+      font-size:1.4rem;
+    }
+
+    .contactMe-text>p{
+      font-size:1rem;
+    }
+
+    .phone-number p, .email p{
+      font-size:1rem;
+    }
+
     .contactMe-form{
       flex-basis:60%;
+      margin-top:-30px;
     }
+
+
 
 
   }

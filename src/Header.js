@@ -11,7 +11,7 @@ function Header () {
       ScrollReveal().reveal(".header-text-title", {origin: "top", distance:"100px", duration: 1000, delay:400, reset:true});
       ScrollReveal().reveal(".header-text-subtitle", {origin: "top", distance:"100px", duration: 1000, delay:600, reset:true});
       ScrollReveal().reveal(".header-text-information", {origin: "top", distance:"100px", duration: 1000, delay:800, reset:true});
-      ScrollReveal().reveal(".btn-viewProjects", {origin: "top", distance:"100px", duration: 1000, delay:400, reset:true});
+      ScrollReveal().reveal(".btn-viewProjects", {origin: "top", distance:"100px", duration: 1000, delay:600, reset:true});
       ScrollReveal().reveal(".btn-hireMe", {origin: "top", distance:"100px", duration: 1000, delay:600, reset:true});
     }, []);
 
