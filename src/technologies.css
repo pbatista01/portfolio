@@ -71,11 +71,11 @@
     }
 
     .technologies-title{
-        font-size:1.3rem;
+        font-size:1.1rem;
     }
 
     .technologies-subtitle{
-        font-size:1.4rem;
+        font-size:1.3rem;
     }
 
     .arrowRight, .arrowLeft{
@@ -100,19 +100,19 @@
 
     .techBox{
         grid-template-columns: repeat(8,auto);
-        grid-template-rows: 200px;
+        grid-template-rows: 150px;
         gap:50px;
         overflow-x: scroll;
         overscroll-behavior-x: contain;
         scroll-snap-type: x proximity;
-        width:80%;
+        width: 80%;
         margin:20px auto;
         transition: transform 0.5s ease-in-out;
     }
     
     .techBox-icon{
-        width:90px;
-        height:90px;
+        width:80px;
+        height:80px;
     }
 
     .techBox-icon img{
@@ -120,7 +120,7 @@
     }
 
     .techBox-text{
-        font-size:1rem;
+        font-size:0.9rem;
     }
 
 }

@@ -244,7 +244,7 @@
     }
 
     .navbar-logo h1{
-      font-size:1.2rem;
+      font-size:1.1rem;
       font-weight:600;
     }
     
@@ -271,7 +271,7 @@
     }
 
     .navbar-menu ul li a{
-      font-size:1rem;
+      font-size:0.9rem;
     }
 
     .navbar-menu ul li a:hover{
@@ -280,19 +280,20 @@
 
     .btn-contactme{
       margin-right:20px;
-      font-size:1rem;
+      font-size:0.9rem;
       padding:5px;
       margin-top:3px;
       height:30px;
-      width:110px;
+      width:105px;
       background-color: var(--orange-color);
     }
 
     .btn-contactme:hover{
-      background-color:var(--background-color);
+      background-color: #E09E00;
+      box-shadow: 0px 2px 20px rgba(255, 179, 0, 0.5);
     }
 
     .btn-contactme:hover a{
-      color:var(--blue-color);
+      color:var(--background-color);
     }
   }

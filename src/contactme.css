@@ -85,19 +85,19 @@
     }
 
     .contactMe-title{
-      font-size:1.3rem;
+      font-size:1.1rem;
     }
     
     .contactMe-text h3{
-      font-size:1.4rem;
+      font-size:1.3rem;
     }
 
     .contactMe-text>p{
-      font-size:1rem;
+      font-size:0.9rem;
     }
 
     .phone-number p, .email p{
-      font-size:1rem;
+      font-size:0.9rem;
     }
 
     .contactMe-form{

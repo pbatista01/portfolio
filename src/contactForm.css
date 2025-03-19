@@ -107,9 +107,9 @@
   }
   
   .contactForm .btn-submit:hover{
-    background-color:var(--blue-color);
+    background-color:var(--orange-color);
     color:var(--background-color);
-    transform:scale(1.05);
+    box-shadow: 0px 2px 20px rgba(255, 179, 0, 0.5); 
   }
 
   .btn-submit:active{
@@ -125,21 +125,22 @@
       border-color: #fde092;
       background: var(--blue-color);
       border-width: 3px;
+      border-radius:30%;
       font-size: 0;
       border-left-color: var(--text-color);
       animation: rotating 2s 0.25s linear infinite;
+      box-shadow: 0px 2px 20px rgba(0, 172, 193, 0.5);
+
   }
 
   .validate {
     font-size: 0.7rem;
     font-weight:bold;
-    color: var(--text-color);
-    background: #fdc220;
+
   }
   
   .validate:after {
-    font-family: 'FontAwesome';
-    content: "\f00c";
+    content: "Sent!";
   }
   
   .validate:before{
@@ -210,9 +211,9 @@
 
       .contactForm .btn-submit{
         margin:30px 0;
-        width:94px;
+        width:90px;
         height:35px;
-        font-size:1rem;
+        font-size:0.9rem;
       }
 
 

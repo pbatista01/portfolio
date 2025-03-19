@@ -63,7 +63,6 @@
     line-height:15px;
     border:none;
     border-radius:5px;
-    box-shadow:2px 2px 4px rgb(0,0,0,0.25);
     margin-top:20px;
     font-weight:600;
     cursor:pointer;
@@ -76,13 +75,12 @@
   }
 
   .btn-viewProjects:hover{
-    background-color: var(--background-color);
-    transform:scale(1.05);
+    background-color: #E09E00;
+    box-shadow: 0px 2px 20px rgba(255, 179, 0, 0.5);
   }
 
-  .btn-viewProjects:hover a{
-    color:var(--blue-color);
-
+  .btn-viewProjects:hover a, .btn-hireMe:hover a{
+    color:var(--background-color);
   }
 
   .btn-hireMe{
@@ -90,12 +88,8 @@
   }
 
   .btn-hireMe:hover{
-    background-color: var(--background-color);
-    transform:scale(1.05);  
-  }
-
-  .btn-hireMe:hover a{
-    color:var(--blue-color);
+    background-color: #008192;
+    box-shadow: 0px 2px 20px rgba(0, 172, 193, 0.5);
   }
 
   @media(min-width:1025px){
@@ -112,11 +106,11 @@
     }
 
     .header-text h2{
-      font-size:1.2rem;
+      font-size:1.1rem;
     }
 
     .header-text h1{
-      font-size:1.5rem;
+      font-size:1.3rem;
     }
     .header-text p{
       font-size:1rem;
@@ -129,9 +123,9 @@
     }
 
     button{
-      width:150px;
-      height:38px;
-      font-size:1rem;
+      width:140px;
+      height:35px;
+      font-size:0.9rem;
     }
 
     .btn-viewProjects, .btn-hireMe{

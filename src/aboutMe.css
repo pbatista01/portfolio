@@ -56,6 +56,7 @@
 
 .btn-letsWork:hover{
     background-color:var(--blue-color);
+    box-shadow: 0px 2px 20px rgba(0, 172, 193, 0.5);
 }
 
 .btn-letsWork:hover a{
@@ -93,15 +94,15 @@
     }
 
     .aboutMe-title{
-        font-size:1.3rem;
+        font-size:1.1rem;
     }
 
     .aboutMe-subtitle{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     .aboutMe-text p{
-        font-size:1rem;
+        font-size:0.9rem;
     }
 
     .elipseAbout{
@@ -125,16 +126,16 @@
     }
 
     .btn-letsWork{
-        width:205px;
+        width:185px;
         height:35px;
-        font-size:1rem;
+        font-size:0.9rem;
     }
 
     .email-icon{
         position:absolute;
         top:11px;
-        left:calc(100% - 30px);
-        font-size:1.1rem;
+        left:calc(100% - 25px);
+        font-size:1rem;
     }
 
     .signature{
