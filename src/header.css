@@ -3,7 +3,7 @@
     height:auto;
     display:flex;
     flex-flow:column wrap;
-    padding:50px;
+    padding:20px 70px;
     align-items:flex-start;
   }
 
@@ -67,11 +67,14 @@
     font-weight:600;
     cursor:pointer;
     color:var(--text-color);
+
   }
 
   .btn-viewProjects{
     margin-top:20px;
     background-color:var(--orange-color);
+    transition:all 0.3s ease;
+
   }
 
   .btn-viewProjects:hover{
@@ -85,6 +88,8 @@
 
   .btn-hireMe{
    background-color: var(--blue-color);
+   transition:all 0.3s ease;
+
   }
 
   .btn-hireMe:hover{

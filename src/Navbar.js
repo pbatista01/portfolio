@@ -15,7 +15,6 @@ function Navbar() {
       <div className="navbar">
       <div className="navbar-logo">
         <Logo />
-        <h1>Estefanie</h1>
       </div>
 
       <div className={`navbar-btn ${menuOpen ? "menu-open" : "menu-close"}`} onClick={toggleMenu}>
