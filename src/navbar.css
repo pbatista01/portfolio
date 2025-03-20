@@ -241,7 +241,7 @@
 
   }
   
-  @media (min-width:1025px){
+  @media (min-width:1024px){
     .navbar{
       height:15px;
       position:fixed;

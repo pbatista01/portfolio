@@ -192,7 +192,7 @@ cursor:pointer;
     
   }
 
-  @media (min-width: 1025px){
+  @media (min-width: 1024px){
     .footer-container{
       padding:70px 120px;
       flex-flow:row wrap;

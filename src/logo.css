@@ -15,7 +15,7 @@
     letter-spacing:-2px;
   }
 
-  @media (min-width:1025px) {
+  @media (min-width:1024px) {
     .logo{
       width:30px;
       height:30px;

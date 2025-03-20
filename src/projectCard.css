@@ -53,7 +53,7 @@
     font-family: "Lato";
 }
 
-@media (min-width:1025px) {
+@media (min-width:1024px) {
     .background-image{
         width:80%;
         margin:0 auto;

@@ -99,7 +99,7 @@
 
   
 
-  @media(min-width:1025px){
+  @media(min-width:1024px){
     .header{
       display:flex;
       flex-flow:row wrap;
