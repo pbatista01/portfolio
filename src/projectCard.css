@@ -18,8 +18,9 @@
 
 .project-technologies{
     display:flex;
-    justify-content: space-between;
     padding:10px;
+    justify-content: space-evenly;
+    
 }
 
 .project-technologies div{
@@ -59,9 +60,8 @@
     }
     
     .project-technologies{
-        width:90%;
-        justify-content: flex-start;
-        margin-left:10px;
+        width:80%;
+        margin:0 auto;
     }
 
     .project-technologies div{
