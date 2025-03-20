@@ -83,6 +83,20 @@
     letter-spacing: 0.3px;
 }
 
+@media (min-width:768px){
+    
+    .about-section{
+        padding:30px 82px;
+    }
+
+    .elipseAbout-img{
+        width:50%;
+        margin-left:175px;
+    }
+
+
+}
+
 @media (min-width:1025px){
     .about-section{
         display:flex;
@@ -112,6 +126,7 @@
 
     .elipseAbout-img{
         width:70%;
+        margin:0;
     }
 
     .aboutMe-text-div{

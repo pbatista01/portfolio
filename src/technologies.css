@@ -58,6 +58,12 @@
 }
 
 @media (min-width:765px){
+
+    .technologies-section{
+        padding:60px 80px;
+
+    }
+
     .techBox{
         grid-template-columns: repeat(3, auto);
         grid-template-rows: repeat(2, auto)

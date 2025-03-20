@@ -71,6 +71,12 @@
     content: "\f0e0";
   }
 
+  @media (min-width:768px){
+    .contactMe-section{
+      padding:60px 80px;
+    }
+  }
+
   @media (min-width:1025px){
     .contactMe-section{
       padding:70px 120px;
