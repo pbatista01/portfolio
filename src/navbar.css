@@ -5,6 +5,9 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
+    position:fixed;
+    width:98%;
+    z-index:1;
   }
   
   .navbar-logo{
@@ -27,7 +30,7 @@
     background-color:var(--orange-color);
     border-radius:5px;
     align-self:center;
-    margin-right:5px;
+    margin-right:10px;
     cursor:pointer;
     display:flex;
     flex-flow:column wrap;

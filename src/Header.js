@@ -29,7 +29,7 @@ function Header () {
             <p className="header-text-information">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
         </div>
         <button className="btn-viewProjects"><a href='#projects'>View My Projects</a></button>
-        <button className="btn-hireMe"><a href ="contactme">Hire Me</a></button>
+        <button className="btn-hireMe"><a href ="#contactme">Hire Me</a></button>
         </div>
       </div>
     );

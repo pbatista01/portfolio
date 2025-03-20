@@ -78,6 +78,19 @@
     left:calc(100% - 30px);
 }
 
+
+@media (min-width:768px){
+
+    .projects{
+        padding:0 80px 60px;
+    }
+
+    .projects-card-section{
+        grid-template-columns: repeat(2, auto);
+        gap:25px;
+    }
+}
+
 @media (min-width:1025px) {
     .projects{
         padding:0 120px 60px;
